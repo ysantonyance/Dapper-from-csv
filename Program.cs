@@ -48,7 +48,7 @@ using Z.Dapper.Plus;
 // але так нецікаво :) тому модель створюється в рантаймі, а таблиця складається з полів типу nvarchar(255)
 // купа рефлексії, тож пристебніться :))
 */
-namespace CSVToDatabase
+namespace ExcelFile
 {
     public class DynamicModelGenerator
     {
@@ -232,4 +232,5 @@ namespace CSVToDatabase
             }
         }
     }
+
 }
